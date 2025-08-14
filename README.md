@@ -14,7 +14,7 @@ This adds a self-contained Speech-to-Text server that the app can use when Web S
 ```bash
 python -m venv venv
 venv\\Scripts\\activate  # Windows
-pip install -r stt/requirements.txt
+pip install -r requirements.txt
 python server.py
 ```
 

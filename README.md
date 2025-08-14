@@ -15,7 +15,7 @@ This adds a self-contained Speech-to-Text server that the app can use when Web S
 python -m venv venv
 venv\\Scripts\\activate  # Windows
 pip install -r stt/requirements.txt
-python stt/server.py
+python server.py
 ```
 
 On first run, it will download the small English model (~50–60MB) into stt/models/.
